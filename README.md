@@ -1,34 +1,4 @@
-@charset "utf-8";
-* {
-  box-sizing: border-box;
-}
 
-.imagen {
-  background-image: url(" img/Sin-título-1.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(2px);
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bg-text {
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4); 
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-text-decoration: none; 
-}
 .button button {
     border-radius: 50px;
     text-shadow: 0px 0px #00BEFF;
